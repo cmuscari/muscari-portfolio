@@ -14,7 +14,7 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
 
-        // Based on the input type, we set the state to equal the inputValue (target.value)
+        // Based on the input type, set the state to equal the inputValue (target.value)
         if (inputType === 'name') {
             setName(inputValue);
         } else if (inputType === 'email') {
