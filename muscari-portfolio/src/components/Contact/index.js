@@ -61,7 +61,7 @@ function Contact() {
                     type="email"
                     placeholder="email"
                 />
-                <input
+                <textarea
                     value={message}
                     name="message"
                     onChange={handleInputChange}

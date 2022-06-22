@@ -1,9 +1,10 @@
 import React from "react";
+import projectImage6 from "../../assets/images/projects/6.jpg";
 
 function Project() {
     return (
         <div className="project-cell">
-            <img src="assets/images/projects/1.jpg" alt="" className="project-cell-image" />
+            <img src={projectImage6} alt="" className="project-cell-image" />
             <div className="project-cell-text">Sample Project Name</div>
         </div>
     )
@@ -11,3 +12,5 @@ function Project() {
 
 
 export default Project;
+
+

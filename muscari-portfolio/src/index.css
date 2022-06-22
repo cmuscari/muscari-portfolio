@@ -1,4 +1,4 @@
-.projects-section {
+/* .projects-section {
   background-color: darkgray;
   width: 100vw;
   height: auto;
@@ -70,7 +70,7 @@
   transform: scale(1.2);
   z-index: 99;
   overflow: hidden;
-}
+} */
 
 /* .project-cell:before {
   content: '';
