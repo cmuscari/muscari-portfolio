@@ -33,6 +33,7 @@ function Contact() {
             return;
         } else {
             console.log(name, email, message);
+            alert('Your message was submitted successfully! Thank you!');
         }
         // If successful, clear the inputs
         setName('');
