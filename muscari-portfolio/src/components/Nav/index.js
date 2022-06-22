@@ -1,20 +1,6 @@
 import React from "react";
 
-function Nav(props) {
-    // const {
-    //     categories = [],
-    //     setCurrentCategory,
-    //     currentCategory,
-    //     contactSelected,
-    //     setContactSelected
-    // } = props;
-
-
-    // const handleClick = (item) => {
-    //     console.log(item);
-    //     return item;
-    // };
-
+function Nav() {
     return (
         <nav>
             <ul className="flex-row">
