@@ -46,7 +46,7 @@ function Contact() {
                 512.743.4434
             </p>
             <h2>Message:</h2>
-            <form className="contact-form">
+            <form id="contact-form" className="contact-form">
                 <input
                     value={name}
                     name="name"
@@ -68,7 +68,7 @@ function Contact() {
                     type="text"
                     placeholder="message"
                 />
-                <button type="button" onClick={handleFormSubmit}>
+                <button type="submit" onClick={handleFormSubmit}>
                     SEND
                 </button>
             </form>
