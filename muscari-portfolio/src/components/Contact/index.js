@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../helpers/helpers.js';
 
 function Contact() {
     // Create state variables for the fields in the form
@@ -43,7 +43,7 @@ function Contact() {
             <h1>Let's talk - I'd love to hear from you!</h1>
             <p>
                 Call:
-                51.743.4434
+                512.743.4434
             </p>
             <h2>Message:</h2>
             <form className="contact-form">
