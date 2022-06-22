@@ -31,4 +31,4 @@ const handleContactFormSubmit = event => {
   
   
   
-  $contactForm.addEventListener('submit', handleContactFormSubmit);
+  $contactForm.querySelector('[name="submit-button"]').addEventListener('submit', handleContactFormSubmit);

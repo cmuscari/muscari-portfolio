@@ -31,6 +31,8 @@ function Contact() {
         if (!validateEmail(email) || !name) {
             setErrorMessage('Name or Email is invalid');
             return;
+        } else {
+            console.log(name, email, message);
         }
         // If successful, clear the inputs
         setName('');
@@ -68,7 +70,7 @@ function Contact() {
                     type="text"
                     placeholder="message"
                 />
-                <button type="submit" onClick={handleFormSubmit}>
+                <button type="submit" name="submit-button" onClick={handleFormSubmit}>
                     SEND
                 </button>
             </form>
