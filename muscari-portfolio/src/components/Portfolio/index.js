@@ -25,14 +25,14 @@ function Portfolio() {
             githubLink: "https://github.com/cmuscari/super-disco"
         },
         {
-            image: "./project-images/placeholder.jpg",
+            image: "./project-images/placeholder.png",
             name: "(Module 21 Assignment)",
             description: "A xxxxxx site that was created using the MERN Stack & GraphQL",
             appLink: "https://github.com/cmuscari",
             githubLink: "https://github.com/cmuscari"
         },
         {
-            image: "./project-images/placeholder.jpg",
+            image: "./project-images/placeholder.png",
             name: "(Group Project 3)",
             description: "A xxxxxx site that was created using the MERN Stack & GraphQL",
             appLink: "https://github.com/cmuscari",
