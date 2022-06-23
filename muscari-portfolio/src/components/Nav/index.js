@@ -2,41 +2,41 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav">
-      <li className="nav-item">
-        <a
-          href="#about"
+    <ul className="nav-container d-flex flex-row justify-content-center align-items-center pr-2 mb-0">
+      <li className="nav-list-item m-2">
+        <a 
+          href="/"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          // className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          about
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-list-item m-2">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          // className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-list-item m-2">
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+          // className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          resume
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-list-item m-2">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          // className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          contact
         </a>
       </li>
     </ul>
