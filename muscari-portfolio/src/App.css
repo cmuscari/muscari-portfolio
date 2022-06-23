@@ -119,8 +119,6 @@ main {
   border: 10px solid white;
 }
 
-*******
-
 .section-2 {
   height: 350px;
   background-color: white;
@@ -131,11 +129,12 @@ main {
 .section-2-title {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 .section-2-text {
   width: 75%;
+  margin-left: 80px;
 }
 
 .section-2-text-content {
@@ -143,7 +142,7 @@ main {
   height: auto;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 .section-2-image {
@@ -151,9 +150,6 @@ main {
   width: auto;
   border: 10px solid white;
 }
-
-
-*******
 
 .section-3 {
   height: 350px;
@@ -166,7 +162,6 @@ main {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: white;
-  color: var(--tertiary-color);
 }
 
 .section-3-text {
@@ -179,7 +174,6 @@ main {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: white;
-  color: var(--tertiary-color);
 }
 
 .section-3-image {
@@ -187,8 +181,6 @@ main {
   width: auto;
   border: 10px solid white;
 }
-
-*******
 
 .section-4 {
   height: 350px;
@@ -205,20 +197,19 @@ main {
 
 .section-4-text {
   width: 75%;
+  text-align: center;
 }
 
 .section-4-text-content {
-  width: 90%;
-  height: auto;
-  font-family: 'Raleway', sans-serif;
-  font-size: 15px;
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 40px;
   color: var(--tertiary-color);
+  margin-top: 15px;
 }
 
 .section-4-image {
-  height: 300px;
+  height: 150px;
   width: auto;
-  border: 10px solid white;
 }
 
 
