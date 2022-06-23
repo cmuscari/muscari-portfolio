@@ -1,7 +1,14 @@
 /* Main Page */
 
-.about-header {
+/* .about-header {
   font-family: 'Cormorant Garamond', serif;
+} */
+
+
+
+.header-title {
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
 }
 
 

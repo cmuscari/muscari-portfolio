@@ -2,9 +2,9 @@ import React from "react";
 
 function Header() {
     return (
-        <header className="flex-row px-1">
+        <header className="d-flex flex-column align-items-center">
             <h2>
-                <a data-testid="link" href="/">CORTNIE MUSCARI</a>
+                <a href="/" className="header-title">CORTNIE MUSCARI</a>
             </h2>
             <h3>WEB DEVELOPER</h3>
         </header>
