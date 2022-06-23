@@ -79,7 +79,29 @@ main {
 
 
 
+/* About Page */
 
+.section-1 {
+  height: 350px;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 10%;
+}
+
+.section-1-text {
+  width: 75%;
+}
+
+.section-1-text-content {
+  width: 90%;
+  height: auto;
+}
+
+.section-1-image {
+  height: 300px;
+  width: auto;
+  border: 10px solid white;
+}
 
 
 
