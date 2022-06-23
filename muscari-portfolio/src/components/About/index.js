@@ -1,5 +1,7 @@
 import React from 'react'
 import aboutImage from "../../assets/images/about/about-image.jpg";
+import quoteLeftImage from "../../assets/images/about/left-quote_light.png";
+import quoteRightImage from "../../assets/images/about/right-quote_light.png";
 
 function About() {
 
@@ -43,7 +45,7 @@ function About() {
 
             <div className="section-4 d-flex flex-row align-items-center">
                 <div>
-                    <img src={aboutImage} className="section-4-image" alt="quotation marks image" />
+                    <img src={quoteLeftImage} className="section-4-image" alt="quotation marks image" />
                 </div>
                 <div className="section-4-text">
                     <h1 className="section-4-title">Favorite Quote</h1>
@@ -52,7 +54,7 @@ function About() {
                     </p>
                 </div>
                 <div>
-                    <img src={aboutImage} className="section-4-image" alt="quotation marks image" />
+                    <img src={quoteRightImage} className="section-4-image" alt="quotation marks image" />
                 </div>
             </div>
         </div>

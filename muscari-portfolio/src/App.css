@@ -186,7 +186,8 @@ main {
   height: 350px;
   background-color: white;
   width: 100%;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .section-4-title {
@@ -196,13 +197,13 @@ main {
 }
 
 .section-4-text {
-  width: 75%;
+  width: 60%;
   text-align: center;
 }
 
 .section-4-text-content {
   font-family: 'Mrs Saint Delafield', cursive;
-  font-size: 40px;
+  font-size: 50px;
   color: var(--tertiary-color);
   margin-top: 15px;
 }
