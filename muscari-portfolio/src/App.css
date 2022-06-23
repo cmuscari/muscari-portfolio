@@ -88,6 +88,19 @@ main {
   padding: 10%;
 }
 
+.section-1-title {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 50px;
+  color: var(--tertiary-color);
+}
+
+.section-1-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: var(--tertiary-color);
+  margin-left: 20px;
+}
+
 .section-1-text {
   width: 75%;
 }
@@ -95,6 +108,9 @@ main {
 .section-1-text-content {
   width: 90%;
   height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: var(--tertiary-color);
 }
 
 .section-1-image {
@@ -102,6 +118,119 @@ main {
   width: auto;
   border: 10px solid white;
 }
+
+*******
+
+.section-2 {
+  height: 350px;
+  background-color: white;
+  width: 100%;
+  padding: 10%;
+}
+
+.section-2-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: var(--tertiary-color);
+}
+
+.section-2-text {
+  width: 75%;
+}
+
+.section-2-text-content {
+  width: 90%;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: var(--tertiary-color);
+}
+
+.section-2-image {
+  height: 300px;
+  width: auto;
+  border: 10px solid white;
+}
+
+
+*******
+
+.section-3 {
+  height: 350px;
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 10%;
+}
+
+.section-3-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  color: var(--tertiary-color);
+}
+
+.section-3-text {
+  width: 75%;
+}
+
+.section-3-text-content {
+  width: 90%;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: white;
+  color: var(--tertiary-color);
+}
+
+.section-3-image {
+  height: 300px;
+  width: auto;
+  border: 10px solid white;
+}
+
+*******
+
+.section-4 {
+  height: 350px;
+  background-color: white;
+  width: 100%;
+  padding: 10%;
+}
+
+.section-4-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: var(--tertiary-color);
+}
+
+.section-4-text {
+  width: 75%;
+}
+
+.section-4-text-content {
+  width: 90%;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: var(--tertiary-color);
+}
+
+.section-4-image {
+  height: 300px;
+  width: auto;
+  border: 10px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
