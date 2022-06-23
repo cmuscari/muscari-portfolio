@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav-container d-flex flex-row justify-content-center align-items-center pr-2 mb-0">
+    <ul className="nav-container d-flex flex-row justify-content-center align-items-center mb-0">
       <li className="nav-list-item m-2">
         <a 
           href="/"
