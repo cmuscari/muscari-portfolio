@@ -45,7 +45,7 @@ function Portfolio() {
             <div className="projects-section">
                 <div className="projects-gallery">
                   {projectArray.map((project) => 
-                    <Project image={project.image} name={project.name} description={project.description} appLink={project.appLink} githubLink={project.githubLink} />
+                    <Project image={project.image} name={project.name} description={project.description} />
                   )}
                 </div>
             </div>
@@ -54,3 +54,4 @@ function Portfolio() {
 }
 
 export default Portfolio;
+

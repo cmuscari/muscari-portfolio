@@ -2,13 +2,14 @@ import React from "react";
 
 function Project(props) {
     return (
-        <div className="project-cell">
-            <img src={props.image} alt="" className="project-cell-image" />
-            <div className="project-cell-text">{props.name}</div>
-            <div className="project-cell-text">{props.description}</div>
-            <p className="project-cell-text">Check out the</p>
-            <a className="project-cell-text" href={props.appLink}>Deployed Application</a>
-            <a className="project-cell-text" href={props.githubLink}>GitHub Repository</a>
+        <div id="project-cell" className="project-cell">
+            <img src={props.image} alt="" id="project-cell-image" className="project-cell-image" />
+            <p id="project-cell-text" className="project-cell-text">
+                {props.name}
+                <br></br>
+                <br></br>
+                {props.description}
+            </p>
         </div>
     )
 };

@@ -30,7 +30,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <body>
+    <div>
       <div>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
@@ -43,7 +43,7 @@ function App() {
       <div>
         <Footer></Footer>
       </div>
-    </body>
+    </div>
   );
 }
 
