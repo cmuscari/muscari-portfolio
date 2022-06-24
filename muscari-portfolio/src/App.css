@@ -18,6 +18,8 @@ main {
 /* Navigation */
 
 .nav-container {
+  width: 100%;
+  height: 40px;
   background-color: var(--secondary-color);
 }
 
@@ -177,6 +179,12 @@ main {
   color: white;
 }
 
+.hobby-group {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
 .hobby-icon {
   height: 80px;
   width: auto;
@@ -186,6 +194,7 @@ main {
 .hobby-title {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
+  text-align: center;
   color: white;
   margin-top: 10px;
 }
@@ -227,21 +236,12 @@ main {
 
 
 
-
-
-
-
-
-
-
-
 /* Portfolio Page */
 
 .projects-section {
   width: 100vw;
   height: auto;
   min-height: 100vh;
-  padding-bottom: 8rem;
 }
 
 .projects-gallery {
@@ -305,7 +305,7 @@ main {
 .project-cell:hover {
   opacity: 1;
   transition: all 0.3s ease-in-out;
-  transform: scale(1.2);
+  transform: scale(1.5);
   z-index: 99;
   overflow: hidden;
 }

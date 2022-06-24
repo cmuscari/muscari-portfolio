@@ -4,39 +4,39 @@ import Project from '../Project';
 function Portfolio() {
     const projectArray = [
         {
-            image: "./project-images/13.jpg",
+            image: "./project-images/food-junkies.jpg",
             name: "Food Junkies",
-            description: "A restaurant recommendation site that was created using Node.js, Express.js, & MySQL",
-            appLink: "https://murmuring-crag-27720.herokuapp.com/",
-            githubLink: "https://github.com/cmuscari/food-junkies"
+            description: "A restaurant recommendation site that was created using Node.js, Express.js & MySQL"
         },
         {
-            image: "./project-images/10.jpg",
+            image: "./project-images/covid-tracker.jpg",
             name: "COVID-19 Risk Tracker",
-            description: "A travel information site that was created using server-side API's",
-            appLink: "https://sabotagecat.github.io/covid-risk-tracking-site/",
-            githubLink: "https://github.com/cmuscari/covid-risk-tracking-site"
+            description: "A travel information site that was created using server-side API's"
         },
         {
-            image: "./project-images/11.jpg",
+            image: "./project-images/scheduler.jpg",
             name: "Work Day Scheduler",
-            description: "A scheduling site that was created utilizing local storage",
-            appLink: "https://cmuscari.github.io/super-disco/",
-            githubLink: "https://github.com/cmuscari/super-disco"
+            description: "A daily scheduling application that was created utilizing local storage"
+        },
+        {
+            image: "./project-images/budget-tracker.jpg",
+            name: "Budget Tracker",
+            description: "A budget tracking PWA that was created using Node.js, Express.js, MongoDB & IndexedDB"
+        },
+        {
+            image: "./project-images/social-network.jpg",
+            name: "Social Network",
+            description: "A social network application that was created using Node.js, Express.js & MongoDB",
         },
         {
             image: "./project-images/placeholder.png",
-            name: "(Module 21 Assignment)",
-            description: "A xxxxxx site that was created using the MERN Stack & GraphQL",
-            appLink: "https://github.com/cmuscari",
-            githubLink: "https://github.com/cmuscari"
+            name: "<MERN Stack Module Assignment>",
+            description: "An application that was created using the MERN Stack & GraphQL",
         },
         {
             image: "./project-images/placeholder.png",
-            name: "(Group Project 3)",
-            description: "A xxxxxx site that was created using the MERN Stack & GraphQL",
-            appLink: "https://github.com/cmuscari",
-            githubLink: "https://github.com/cmuscari"
+            name: "<Group Project 3>",
+            description: "An application that was created using the MERN Stack, GraphQL & Redux",
         }
     ]
 

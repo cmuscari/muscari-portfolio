@@ -2,7 +2,10 @@ import React from 'react'
 import aboutImage from "../../assets/images/about/about-image.jpg";
 import quoteLeftImage from "../../assets/images/about/left-quote_light.png";
 import quoteRightImage from "../../assets/images/about/right-quote_light.png";
+import travelIcon from "../../assets/images/icons/travel.png";
+import paddleboardingIcon from "../../assets/images/icons/paddleboarding.png";
 import photographyIcon from "../../assets/images/icons/photography.png";
+import hikingIcon from "../../assets/images/icons/hiking.png";
 
 function About() {
 
@@ -33,10 +36,24 @@ function About() {
             </div>
 
             <div className="section-3 d-flex flex-column align-items-center justify-content-center">
-                <h1 className="section-3-title">My hobbies + interests</h1>
-                <div className="d-flex flex-column align-items-center justify-content-center">
-                    <img src={photographyIcon} className="hobby-icon" alt="photography icon" />
-                    <p className="hobby-title">p h o t o g r a p h y</p>
+                <h1 className="section-3-title">Hobbies + Interests</h1>
+                <div className="d-flex flex-row align-items-center justify-content-center">
+                    <div className="d-flex flex-column align-items-center justify-content-center hobby-group">
+                        <img src={travelIcon} className="hobby-icon" alt="travel icon" />
+                        <p className="hobby-title">w o r l d - t r a v e l</p>
+                    </div>
+                    <div className="d-flex flex-column align-items-center justify-content-center hobby-group">
+                        <img src={paddleboardingIcon} className="hobby-icon" alt="paddleboarding icon" />
+                        <p className="hobby-title">p a d d l e b o a r d i n g</p>
+                    </div>
+                    <div className="d-flex flex-column align-items-center justify-content-center hobby-group">
+                        <img src={photographyIcon} className="hobby-icon" alt="photography icon" />
+                        <p className="hobby-title">p h o t o g r a p h y</p>
+                    </div>
+                    <div className="d-flex flex-column align-items-center justify-content-center hobby-group">
+                        <img src={hikingIcon} className="hobby-icon" alt="hiking icon" />
+                        <p className="hobby-title">h i k i n g</p>
+                    </div>
                 </div>
             </div>
 
