@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutImage from "../../assets/images/about/about-image.jpg";
+import aboutImage1 from "../../assets/images/about/about-image-1.jpg";
+import aboutImage2 from "../../assets/images/about/about-image-2.jpg";
 import quoteLeftImage from "../../assets/images/about/left-quote_light.png";
 import quoteRightImage from "../../assets/images/about/right-quote_light.png";
 import travelIcon from "../../assets/images/icons/travel.png";
@@ -19,13 +20,13 @@ function About() {
                     </p>
                 </div>
                 <div>
-                    <img src={aboutImage} className="section-1-image" alt="about image" />
+                    <img src={aboutImage1} className="section-1-image" alt="about image" />
                 </div>
             </div>
 
             <div className="section-2 d-flex flex-row align-items-center">
                 <div>
-                    <img src={aboutImage} className="section-2-image" alt="my story image" />
+                    <img src={aboutImage2} className="section-2-image" alt="my story image" />
                 </div>
                 <div className="section-2-text">
                     <h1 className="section-2-title">My Story</h1>

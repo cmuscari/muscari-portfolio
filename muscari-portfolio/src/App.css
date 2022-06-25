@@ -151,6 +151,7 @@ main {
   height: 300px;
   width: auto;
   border: 10px solid white;
+  opacity: .85;
 }
 
 .section-3 {
@@ -256,6 +257,10 @@ main {
   height: auto;
 }
 
+.project-cell-container {
+  text-decoration: none;
+}
+
 .project-cell {
   flex: 0 1 250px;
   max-width: 250px;
@@ -277,7 +282,7 @@ main {
 
 .project-cell-text {
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: var(--tertiary-color);
   opacity: 0;
   height: 100%;
   width: 60%;
@@ -290,7 +295,12 @@ main {
   transition: opacity 350ms;
 }
 
-.project-cell-text:hover {
+.project-cell-description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+.project-cell:hover .project-cell-text {
   color: var(--tertiary-color);
   opacity: 1;
   z-index: 99;
@@ -335,34 +345,40 @@ main {
 @media screen and (max-width: 550px) {
 
   .project-cell {
+    position: relative;
     margin: 25px 25px;
   }
 }
 
 
 @media screen and (min-width: 550px) and (max-width: 825px) {
-  .project-cell:nth-child(3n) {
+  .project-cell-container:nth-child(3n) {
     margin-right: calc(50% - 125px);
     margin-left: calc(50% - 125px);
   }
 
-  .project-cell:nth-child(3) {
+  .project-cell-container:nth-child(3) {
+    position: relative;
     top: -70px;
   }
 
-  .project-cell:nth-child(4) {
+  .project-cell-container:nth-child(4) {
+    position: relative;
     top: -140px;
   }
 
-  .project-cell:nth-child(5) {
+  .project-cell-container:nth-child(5) {
+    position: relative;
     top: -140px;
   }
 
-  .project-cell:nth-child(6) {
+  .project-cell-container:nth-child(6) {
+    position: relative;
     top: -210px;
   }
 
-  .project-cell:nth-child(7) {
+  .project-cell-container:nth-child(7) {
+    position: relative;
     top: -280px;
     margin-right: 250px;
   }
@@ -370,23 +386,27 @@ main {
 
 
 @media screen and (min-width: 825px) and (max-width: 1100px) {
-  .project-cell:nth-child(4) {
+  .project-cell-container:nth-child(4) {
     top: -70px;
+    position: relative;
     margin-left: calc(50% - 275px);
   }
 
-  .project-cell:nth-child(5) {
+  .project-cell-container:nth-child(5) {
     top: -70px;
+    position: relative;
     margin-right: calc(50% - 275px);
   }
 
-  .project-cell:nth-child(6) {
+  .project-cell-container:nth-child(6) {
     top: -140px;
+    position: relative;
     margin-left: calc(50% - 530px);
   }
 
-  .project-cell:nth-child(7) {
+  .project-cell-container:nth-child(7) {
     top: -140px;
+    position: relative;
     margin-right: calc(50% - 275px);
   }
 }
@@ -394,7 +414,7 @@ main {
 
 @media screen and (min-width: 1100px) {
 
-  .project-cell:nth-child(n + 5) {
+  .project-cell-container:nth-child(n + 5) {
     position: relative;
     top: -70px;
   }
