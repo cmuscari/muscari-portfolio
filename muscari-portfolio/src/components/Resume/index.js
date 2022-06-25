@@ -3,22 +3,32 @@ import React from 'react'
 function Resume() {
 
     return (
-        <section className="my-5" >
-            <div>
-                <h1>Skills Snapshot:</h1>
-                <ul>
-                    <li>Skill Text Here</li>
-                    <li>Skill Text Here</li>
-                    <li>Skill Text Here</li>
-                    <li>Skill Text Here</li>
-                    <li>Skill Text Here</li>
-                    <li>Skill Text Here</li>
+        <div className="resume-page-container d-flex flex-row justify-content-center align-items-center" >
+            <div className="skills-container d-flex flex-column align-items-center">
+                <ul className="skills-list">
+                    <h1 className="skills-title">I'm skilled at using:</h1>
+                    <li>HTML</li>
+                    <li>CSS / Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>MERN Stack - MongoDB, Express.js, React + Node.js</li>
+                    <li>GraphQL</li>
+                    <li>Redux</li>
+                    <li>Relational Databases / MySQL</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>TDD / Jest</li>
+                    <li>IndexedDB</li>
+                    <li>JSON Web Tokens</li>
+                    <li>Adobe Photoshop</li>
                 </ul>
             </div>
-            <div>
-                <h1>Click <a href="https://docdro.id/PLtn041" target="_blank">HERE</a> to download my resume</h1>
+            <div className="resume-container d-flex flex-row justify-content-center align-items-center">
+                <div className="resume-container-inner d-flex flex-row justify-content-center align-items-center">
+                    <div className="resume-container-inner-inner d-flex flex-row justify-content-center align-items-center">
+                        <a href="https://docdro.id/PLtn041" target="_blank" className="resume-text">DOWNLOAD MY RESUME HERE</a>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
     )
 }
 

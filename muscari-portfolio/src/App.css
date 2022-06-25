@@ -92,7 +92,7 @@ main {
 
 .section-1-title {
   font-family: 'Mrs Saint Delafield', cursive;
-  font-size: 50px;
+  font-size: 55px;
   color: var(--tertiary-color);
 }
 
@@ -335,6 +335,79 @@ main {
 
 
 
+/* Resume Page */
+
+.skills-container {
+  background-color: white;
+  height: 500px;
+  width: 50%;
+}
+
+.skills-title {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 60px;
+  color: var(--tertiary-color);
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+.skills-list {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: var(--tertiary-color);
+  list-style: none;
+}
+
+.skills-list li::before {
+  content: "\2022";
+  color: var(--secondary-color);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.resume-container {
+  background-color: var(--secondary-color);
+  height: 500px;
+  width: 50%;
+}
+
+.resume-container-inner {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.resume-container-inner-inner {
+  height: 275px;
+  width: 275px;
+  background-color: white;
+  border: 10px solid var(--primary-color);
+  margin: 0px;
+}
+
+.resume-text {
+  color: var(--secondary-color);
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  margin: 10%;
+}
+
+.resume-text:hover {
+  color: #debda3;;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -419,4 +492,3 @@ main {
     top: -70px;
   }
 }
-
