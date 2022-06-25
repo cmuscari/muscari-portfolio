@@ -398,9 +398,44 @@ main {
 }
 
 .resume-text:hover {
-  color: #debda3;;
+  color: #debda3;
 }
 
+
+
+
+
+/* Contact Page */
+
+.contact-container-inner {
+  background-color: white;
+  border: 10px solid var(--primary-color);
+  height: 600px;
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-title {
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 80px;
+  color: var(--tertiary-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: var(--tertiary-color);
+}
+
+.call-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: var(--secondary-color);
+}
 
 
 

@@ -42,44 +42,51 @@ function Contact() {
     };
 
     return (
-        <div>
-            <h1>Let's talk - I'd love to hear from you!</h1>
-            <p>
-                Call:
-                512.743.4434
-            </p>
-            <h2>Message:</h2>
-            <form id="contact-form" className="contact-form">
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="name"
-                />
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="email"
-                />
-                <textarea
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="message"
-                />
-                <button type="submit" name="submit-button" onClick={handleFormSubmit}>
-                    SEND
-                </button>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+        <div className="contact-container d-flex flex-column justify-content-center align-items-center">
+            <div className="contact-container-inner d-flex flex-column justify-content-center align-items-center">
+                <h1 className="contact-title">Let's Connect</h1>
+                <h2 className="subtitle">call me:</h2>
+                <p className="call-text">
+                    512.743.4434
+                </p>
+                <br></br>
+                <br></br>
+                <h2 className="subtitle">message me:</h2>
+                <form id="contact-form" className="contact-form">
+                    <input
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="name"
+                        className="name-input"
+                    />
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder="email"
+                        className="email-input"
+                    />
+                    <textarea
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="message"
+                        className="message-input"
+                    />
+                    <button type="submit" name="submit-button" onClick={handleFormSubmit} className="send-button">
+                        SEND
+                    </button>
+                </form>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }
