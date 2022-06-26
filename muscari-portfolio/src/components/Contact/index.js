@@ -29,7 +29,7 @@ function Contact() {
 
         // Check to see if the name is empty or the email is invalid. If so we set an error message to be displayed on the page.
         if (!validateEmail(email) || !name) {
-            setErrorMessage('Name or Email is invalid');
+            setErrorMessage('error -  name or email is invalid');
             return;
         } else {
             console.log(name, email, message);
@@ -52,42 +52,41 @@ function Contact() {
                 <br></br>
                 <br></br>
                 <h2 className="subtitle">message me:</h2>
-                <form id="contact-form" className="contact-form">
-                    <input
-                        value={name}
-                        name="name"
-                        onChange={handleInputChange}
-                        type="text"
-                        placeholder="name"
-                        className="name-input"
-                    />
-                    <input
-                        value={email}
-                        name="email"
-                        onChange={handleInputChange}
-                        type="email"
-                        placeholder="email"
-                        className="email-input"
-                    />
-                    <textarea
-                        value={message}
-                        name="message"
-                        onChange={handleInputChange}
-                        type="text"
-                        placeholder="message"
-                        className="message-input"
-                    />
-                    <button type="submit" name="submit-button" onClick={handleFormSubmit} className="send-button">
-                        SEND
-                    </button>
-                </form>
+                <input
+                    value={name}
+                    name="name"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="name"
+                    className="input"
+                />
+                <input
+                    value={email}
+                    name="email"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="email"
+                    className="input"
+                />
+                <textarea
+                    value={message}
+                    name="message"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="message"
+                    className="input textarea"
+                />
+                <button type="submit" name="submit-button" onClick={handleFormSubmit} className="send-button btn-lg">
+                    SEND
+                </button>
+
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
             </div>
-        </div>
+        </div >
     );
 }
 

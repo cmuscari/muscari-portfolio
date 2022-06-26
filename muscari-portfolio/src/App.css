@@ -35,7 +35,11 @@ main {
 
 .nav-list-item a:hover {
   color: var(--tertiary-color);
+  transition: all 0.35s ease-in-out;
 }
+
+
+
 
 
 
@@ -54,6 +58,7 @@ main {
 
 .header-title:hover {
   color: #debda3;
+  transition: all 0.30s ease-in-out;
 }
 
 .header-subtitle {
@@ -399,6 +404,7 @@ main {
 
 .resume-text:hover {
   color: #debda3;
+  transition: all 0.30s ease-in-out;
 }
 
 
@@ -410,7 +416,7 @@ main {
 .contact-container-inner {
   background-color: white;
   border: 10px solid var(--primary-color);
-  height: 600px;
+  height: auto;
   width: 500px;
   margin-top: 40px;
   margin-bottom: 60px;
@@ -422,7 +428,8 @@ main {
   font-size: 80px;
   color: var(--tertiary-color);
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 .subtitle {
@@ -437,6 +444,43 @@ main {
   color: var(--secondary-color);
 }
 
+.input {
+  width: 90%;
+  margin-top: 15px;
+  color: var(--secondary-color);
+}
+
+.textarea {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.send-button {
+  background-color: var(--secondary-color);
+  border:none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  box-shadow: -5px 5px 2px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.send-button:hover {
+  transition: all 0.35s ease-in-out;
+  transform: scale(1.05);
+  z-index: 99;
+}
+
+.error-text {
+  color: var(--tertiary-color);
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
 
 
 
