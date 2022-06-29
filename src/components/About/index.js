@@ -16,7 +16,11 @@ function About() {
                 <div className="section-1-text">
                     <h1 className="section-1-title">Hello!<span className="section-1-subtitle">I'm Cortnie</span></h1>
                     <p className="section-1-text-content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus.
+                        I'm an Austin-based, Full-Stack Web Developer with a rich background in design - the perfect blend of design + technology.
+                        I have a passion for creating beautiful + functional web applications that are also intuitive, efficient, accessible, responsive + well-performing.
+                        <br></br>
+                        <br></br>
+                        I'm looking to join a team that will allow me to utilize my skills, as well as build upon them, by developing web applications that stand out from the crowd.
                     </p>
                 </div>
                 <div>
@@ -31,7 +35,10 @@ function About() {
                 <div className="section-2-text">
                     <h1 className="section-2-title">My Story</h1>
                     <p className="section-2-text-content">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus.
+                        Born and raised in Chicago, I graduated with a Bachelor's Degree in Interior Design from The Illinois Institute of Art, which launched my career in the design industry.  After years of designing creative and functional interior solutions for hospitality projects world-wide, I pivoted into the world of structural engineering + architecture.  It is here that I spent close to a decade utilizing programs such as AutoCAD + Photoshop, honing skills such as visual layouts + technical detailing, and collaborating on ever-changing, flexible projects - my first Agile work experience.
+                        <br></br>
+                        <br></br>
+                        Having a design background made it a smooth transition into Web Development.  Both of these are extremely technical and detail-oriented fields that also require me to think creatively and come up with unique, out-of-the-box solutions to problems, and I'm excited to continue my journey in the development world.
                     </p>
                 </div>
             </div>
