@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/muscari-portfolio/static/css/main.e04b1178.css",
-    "main.js": "/muscari-portfolio/static/js/main.90274b86.js",
-    "static/js/787.8dc508f9.chunk.js": "/muscari-portfolio/static/js/787.8dc508f9.chunk.js",
-    "static/media/about-image-2.jpg": "/muscari-portfolio/static/media/about-image-2.88fad27c66005bd9fc15.jpg",
-    "static/media/about-image-1.jpg": "/muscari-portfolio/static/media/about-image-1.55dfc0d5fc2670862616.jpg",
-    "static/media/left-quote_light.png": "/muscari-portfolio/static/media/left-quote_light.ddd924eeed8b85a55c31.png",
-    "static/media/right-quote_light.png": "/muscari-portfolio/static/media/right-quote_light.e6e121ac3ca43586f5f8.png",
-    "static/media/travel.png": "/muscari-portfolio/static/media/travel.0a9f1e94e4e1f08cf61a.png",
-    "index.html": "/muscari-portfolio/index.html",
-    "main.e04b1178.css.map": "/muscari-portfolio/static/css/main.e04b1178.css.map",
-    "main.90274b86.js.map": "/muscari-portfolio/static/js/main.90274b86.js.map",
-    "787.8dc508f9.chunk.js.map": "/muscari-portfolio/static/js/787.8dc508f9.chunk.js.map"
+    "main.css": "/static/css/main.e04b1178.css",
+    "main.js": "/static/js/main.78366faf.js",
+    "static/js/787.8dc508f9.chunk.js": "/static/js/787.8dc508f9.chunk.js",
+    "static/media/about-image-2.jpg": "/static/media/about-image-2.88fad27c66005bd9fc15.jpg",
+    "static/media/about-image-1.jpg": "/static/media/about-image-1.55dfc0d5fc2670862616.jpg",
+    "static/media/left-quote_light.png": "/static/media/left-quote_light.ddd924eeed8b85a55c31.png",
+    "static/media/right-quote_light.png": "/static/media/right-quote_light.e6e121ac3ca43586f5f8.png",
+    "static/media/travel.png": "/static/media/travel.0a9f1e94e4e1f08cf61a.png",
+    "index.html": "/index.html",
+    "main.e04b1178.css.map": "/static/css/main.e04b1178.css.map",
+    "main.78366faf.js.map": "/static/js/main.78366faf.js.map",
+    "787.8dc508f9.chunk.js.map": "/static/js/787.8dc508f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e04b1178.css",
-    "static/js/main.90274b86.js"
+    "static/js/main.78366faf.js"
   ]
 }
