@@ -25,6 +25,7 @@ main {
 
 .nav-list-item {
   list-style: none;
+  margin: 25px;
 }
 
 .nav-list-item a {
@@ -141,7 +142,7 @@ main {
 }
 
 .section-2-text {
-  width: 75%;
+  width: 60%;
   margin-left: 80px;
 }
 
@@ -505,6 +506,7 @@ main {
 
 
 @media screen and (min-width: 550px) and (max-width: 825px) {
+
   .project-cell-container:nth-child(3n) {
     margin-right: calc(50% - 125px);
     margin-left: calc(50% - 125px);
@@ -539,6 +541,48 @@ main {
 
 
 @media screen and (min-width: 825px) and (max-width: 1100px) {
+
+  .section-2 {
+    height: auto;
+    padding: 5%;
+  }
+  
+  .section-2-text {
+    width: 60%;
+    margin-left: 25px;
+  }
+
+  .section-3 {
+    padding: 3%;
+  }
+
+  .hobby-group {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .section-4 {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .section-4-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .section-4-text-content {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 50px;
+    color: var(--tertiary-color);
+    margin-top: 15px;
+  }
+  
+  .section-4-image {
+    height: 100px;
+    width: auto;
+  }
+
   .project-cell-container:nth-child(4) {
     top: -70px;
     position: relative;

@@ -45,7 +45,7 @@ function About() {
 
             <div className="section-3 d-flex flex-column align-items-center justify-content-center">
                 <h1 className="section-3-title">Hobbies + Interests</h1>
-                <div className="d-flex flex-row align-items-center justify-content-center">
+                <div className="d-flex flex-row align-items-center justify-content-center hobbies-container">
                     <div className="d-flex flex-column align-items-center justify-content-center hobby-group">
                         <img src={travelIcon} className="hobby-icon" alt="travel icon" />
                         <p className="hobby-title">w o r l d - t r a v e l</p>
