@@ -360,9 +360,16 @@ main {
 
 /* Resume Page */
 
+.resume-page-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .skills-container {
   background-color: white;
-  height: 500px;
+  height: 600px;
   width: 50%;
 }
 
@@ -392,7 +399,7 @@ main {
 
 .resume-container {
   background-color: var(--secondary-color);
-  height: 500px;
+  height: 600px;
   width: 50%;
 }
 
@@ -476,7 +483,7 @@ main {
 
 .send-button {
   background-color: var(--secondary-color);
-  border:none;
+  border: none;
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -535,12 +542,12 @@ main {
     margin-left: 10%;
     margin-bottom: 5%;
   }
-  
+
   .section-2 {
     flex-direction: column;
     padding: 5%;
   }
-  
+
   .section-2-text {
     width: 95%;
     text-align: left;
@@ -549,7 +556,7 @@ main {
   }
 
   .section-3 {
-   height: auto;
+    height: auto;
   }
 
   .hobbies-container {
@@ -575,6 +582,33 @@ main {
     position: relative;
     margin: 25px 25px;
   }
+
+  .resume-page-container {
+    flex-direction: column;
+  }
+
+  .skills-container {
+    height: auto;
+    width: 100%;
+  }
+
+  .skills-title {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .skills-list {
+    font-size: 14px;
+    margin-bottom: 10%;
+  }
+
+  .resume-container {
+    width: 100%;
+  }
+
+  .contact-container-inner {
+    width: 350px;
+  }
 }
 
 
@@ -596,7 +630,7 @@ main {
     flex-direction: column;
     padding: 5%;
   }
-  
+
   .section-2-text {
     width: 85%;
     text-align: left;
@@ -605,7 +639,7 @@ main {
   }
 
   .section-3 {
-   height: auto;
+    height: auto;
   }
 
   .hobbies-container {
@@ -657,6 +691,33 @@ main {
     top: -280px;
     margin-right: 250px;
   }
+
+  .resume-page-container {
+    flex-direction: column;
+  }
+
+  .skills-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .skills-title {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .skills-list {
+    font-size: 16px;
+    margin-bottom: 10%;
+  }
+
+  .resume-container {
+    width: 100%;
+  }
+
+  .contact-container-inner {
+    width: 475px;
+  }
 }
 
 
@@ -666,7 +727,7 @@ main {
     height: auto;
     padding: 5%;
   }
-  
+
   .section-2-text {
     width: 60%;
     margin-left: 25px;
@@ -690,14 +751,14 @@ main {
     width: 100%;
     text-align: center;
   }
-  
+
   .section-4-text-content {
     font-family: 'Mrs Saint Delafield', cursive;
     font-size: 50px;
     color: var(--tertiary-color);
     margin-top: 15px;
   }
-  
+
   .section-4-image {
     height: 100px;
     width: auto;
@@ -725,6 +786,23 @@ main {
     top: -140px;
     position: relative;
     margin-right: calc(50% - 275px);
+  }
+
+  .resume-page-container {
+    flex-direction: column;
+  }
+
+  .skills-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .skills-title {
+    text-align: center;
+  }
+
+  .resume-container {
+    width: 100%;
   }
 }
 

@@ -3,7 +3,7 @@ import React from 'react'
 function Resume() {
 
     return (
-        <div className="resume-page-container d-flex flex-row justify-content-center align-items-center" >
+        <div className="resume-page-container" >
             <div className="skills-container d-flex flex-column align-items-center">
                 <ul className="skills-list">
                     <h1 className="skills-title">I'm skilled at using:</h1>
@@ -12,10 +12,11 @@ function Resume() {
                     <li>JavaScript</li>
                     <li>MERN Stack - MongoDB, Express.js, React + Node.js</li>
                     <li>GraphQL</li>
-                    <li>Redux</li>
+                    <li>Global State Management / React Context API / Redux</li>
                     <li>Relational Databases / MySQL</li>
                     <li>Object-Oriented Programming</li>
                     <li>TDD / Jest</li>
+                    <li>Progressive Web Applications</li>
                     <li>IndexedDB</li>
                     <li>JSON Web Tokens</li>
                     <li>Adobe Photoshop</li>
