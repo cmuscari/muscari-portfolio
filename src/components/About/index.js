@@ -12,7 +12,7 @@ function About() {
 
     return (
         <div className="about-page d-flex flex-column justify-content-center align-items-center" id="about">
-            <div className="section-1 d-flex flex-row align-items-center">
+            <div className="section-1">
                 <div className="section-1-text">
                     <h1 className="section-1-title">Hello!<span className="section-1-subtitle">I'm Cortnie</span></h1>
                     <p className="section-1-text-content">
@@ -28,7 +28,7 @@ function About() {
                 </div>
             </div>
 
-            <div className="section-2 d-flex flex-row align-items-center">
+            <div className="section-2">
                 <div>
                     <img src={aboutImage2} className="section-2-image" alt="my story image" />
                 </div>
@@ -45,7 +45,7 @@ function About() {
 
             <div className="section-3 d-flex flex-column align-items-center justify-content-center">
                 <h1 className="section-3-title">Hobbies + Interests</h1>
-                <div className="d-flex flex-row align-items-center justify-content-center hobbies-container">
+                <div className="hobbies-container">
                     <div className="d-flex flex-column align-items-center justify-content-center hobby-group">
                         <img src={travelIcon} className="hobby-icon" alt="travel icon" />
                         <p className="hobby-title">w o r l d - t r a v e l</p>

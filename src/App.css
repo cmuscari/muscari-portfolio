@@ -91,6 +91,9 @@ main {
 /* About Page */
 
 .section-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   height: 350px;
   background-color: var(--primary-color);
   width: 100%;
@@ -129,10 +132,16 @@ main {
 }
 
 .section-2 {
-  height: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: auto;
   background-color: white;
   width: 100%;
-  padding: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  padding-left: 10%;
 }
 
 .section-2-title {
@@ -185,6 +194,13 @@ main {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   color: white;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .hobby-group {
@@ -498,6 +514,63 @@ main {
 
 @media screen and (max-width: 550px) {
 
+  .header-title {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .section-1-text {
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .section-2 {
+    flex-direction: column;
+    padding: 5%;
+  }
+  
+  .section-2-text {
+    width: 95%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .section-3 {
+   height: auto;
+  }
+
+  .hobbies-container {
+    flex-direction: column;
+  }
+
+  .section-4 {
+    height: auto;
+    padding: 3%;
+  }
+
+  .section-4-title {
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+
+  .section-4-image {
+    height: 60px;
+    width: auto;
+  }
+
   .project-cell {
     position: relative;
     margin: 25px 25px;
@@ -506,6 +579,53 @@ main {
 
 
 @media screen and (min-width: 550px) and (max-width: 825px) {
+
+  .header-title {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 1;
+  }
+
+  .section-1 {
+    height: auto;
+    padding: 5%;
+  }
+
+  .section-2 {
+    flex-direction: column;
+    padding: 5%;
+  }
+  
+  .section-2-text {
+    width: 85%;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .section-3 {
+   height: auto;
+  }
+
+  .hobbies-container {
+    flex-direction: column;
+  }
+
+  .section-4 {
+    height: auto;
+    padding: 3%;
+  }
+
+  .section-4-title {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .section-4-image {
+    height: 70px;
+    width: auto;
+  }
 
   .project-cell-container:nth-child(3n) {
     margin-right: calc(50% - 125px);
