@@ -25,7 +25,7 @@ function Resume() {
             <div className="resume-container d-flex flex-row justify-content-center align-items-center">
                 <div className="resume-container-inner d-flex flex-row justify-content-center align-items-center">
                     <div className="resume-container-inner-inner d-flex flex-row justify-content-center align-items-center">
-                        <a href="https://docdro.id/PLtn041" target="_blank" className="resume-text">DOWNLOAD MY RESUME HERE</a>
+                        <a href="https://docdro.id/wq2zAXv" target="_blank" className="resume-text">DOWNLOAD MY RESUME HERE</a>
                     </div>
                 </div>
             </div>
