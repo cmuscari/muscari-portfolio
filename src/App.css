@@ -375,7 +375,6 @@ main {
   background-color: white;
   height: 600px;
   width: 50%;
-  border: 3px solid var(--secondary-color);
 }
 
 .skills-title {
@@ -403,39 +402,48 @@ main {
 }
 
 .resume-container {
-  background-color: var(--secondary-color);
+  background-color: white;
   height: 600px;
   width: 50%;
 }
 
 .resume-container-inner {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   background-color: white;
   box-shadow: -10px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
 .resume-container-inner-inner {
-  height: 275px;
-  width: 275px;
+  height: 375px;
+  width: 375px;
   background-color: white;
   border: 10px solid var(--primary-color);
   margin: 0px;
 }
 
-.resume-text {
-  color: var(--secondary-color);
-  font-family: 'Cormorant Garamond', serif;
-  text-decoration: none;
-  font-size: 30px;
-  text-align: center;
-  margin: 10%;
+.resume-icon {
+  height: 90px;
+  width: auto;
 }
 
-.resume-text:hover {
-  color: #debda3;
+.resume-icon:hover {
+  transform: scale(1.15);
   transition: all 0.30s ease-in-out;
 }
+
+.resume-text {
+  color: var(--tertiary-color);
+  font-family: 'Cormorant Garamond', serif;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+
 
 
 
@@ -610,6 +618,14 @@ main {
 
   .resume-container {
     width: 100%;
+  }
+
+  .resume-container-inner {
+    width: 325px;
+  }
+
+  .resume-container-inner-inner {
+    width: 300px;
   }
 
   .contact-container-inner {

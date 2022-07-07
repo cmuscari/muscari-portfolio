@@ -1,4 +1,6 @@
 import React from 'react'
+import resumeIcon from "../../assets/images/icons/resume.png";
+
 
 function Resume() {
 
@@ -24,8 +26,11 @@ function Resume() {
             </div>
             <div className="resume-container d-flex flex-row justify-content-center align-items-center">
                 <div className="resume-container-inner d-flex flex-row justify-content-center align-items-center">
-                    <div className="resume-container-inner-inner d-flex flex-row justify-content-center align-items-center">
-                        <a href="https://docdro.id/wq2zAXv" target="_blank" className="resume-text">DOWNLOAD MY RESUME HERE</a>
+                    <div className="resume-container-inner-inner d-flex flex-column justify-content-center align-items-center">
+                        <a href="https://docdro.id/wq2zAXv" target="_blank" className="resume-icon">
+                            <img src={resumeIcon} className="resume-icon" alt="resume icon" />
+                        </a>
+                        <p className="resume-text">DOWNLOAD MY RESUME HERE</p>
                     </div>
                 </div>
             </div>
