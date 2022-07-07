@@ -1,5 +1,5 @@
 import React from 'react'
-import resumeIcon from "../../assets/images/icons/resume.png";
+import resumeIcon from "../../assets/images/icons/resume.jpg";
 
 
 function Resume() {
@@ -30,6 +30,8 @@ function Resume() {
                         <a href="https://docdro.id/wq2zAXv" target="_blank" className="resume-icon">
                             <img src={resumeIcon} className="resume-icon" alt="resume icon" />
                         </a>
+                        <br></br>
+                        <br></br>
                         <p className="resume-text">DOWNLOAD MY RESUME HERE</p>
                     </div>
                 </div>
