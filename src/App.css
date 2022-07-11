@@ -151,7 +151,7 @@ main {
 .section-2-title {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .section-2-text {
@@ -164,7 +164,7 @@ main {
   height: auto;
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 .section-2-image {
@@ -436,7 +436,7 @@ main {
 }
 
 .resume-text {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   font-family: 'Cormorant Garamond', serif;
   text-decoration: none;
   font-size: 20px;

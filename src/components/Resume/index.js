@@ -14,7 +14,7 @@ function Resume() {
                     <li>JavaScript</li>
                     <li>MERN Stack - MongoDB, Express.js, React + Node.js</li>
                     <li>GraphQL</li>
-                    <li>Global State Management / React Context API / Redux</li>
+                    <li>Global State Management / React Context API</li>
                     <li>Relational Databases / MySQL</li>
                     <li>Object-Oriented Programming</li>
                     <li>TDD / Jest</li>
@@ -27,7 +27,7 @@ function Resume() {
             <div className="resume-container d-flex flex-row justify-content-center align-items-center">
                 <div className="resume-container-inner d-flex flex-row justify-content-center align-items-center">
                     <div className="resume-container-inner-inner d-flex flex-column justify-content-center align-items-center">
-                        <a href="https://docdro.id/wq2zAXv" target="_blank" className="resume-icon">
+                        <a href="https://docdro.id/Sz11wGe" target="_blank" className="resume-icon">
                             <img src={resumeIcon} className="resume-icon" alt="resume icon" />
                         </a>
                         <br></br>

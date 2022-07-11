@@ -6,7 +6,7 @@ function Portfolio() {
         {
             image: "./project-images/food-junkies.jpg",
             name: "Food Junkies",
-            description: "A restaurant recommendation site that was created using Node.js, Express.js & MySQL",
+            description: "A restaurant recommendation site that was created using Node.js, Express.js + MySQL",
             url: "https://github.com/cmuscari/food-junkies"
         },
         {
@@ -24,26 +24,26 @@ function Portfolio() {
         {
             image: "./project-images/budget-tracker.jpg",
             name: "Budget Tracker",
-            description: "A budget tracking PWA that was created using Node.js, Express.js, MongoDB & IndexedDB",
+            description: "A budget tracking PWA that was created using Node.js, Express.js, MongoDB + IndexedDB",
             url: "https://github.com/cmuscari/budget-tracker"
         },
         {
             image: "./project-images/social-network.jpg",
             name: "Social Network",
-            description: "A social network application that was created using Node.js, Express.js & MongoDB",
+            description: "A social network application that was created using Node.js, Express.js + MongoDB",
             url: "https://github.com/cmuscari/social-network"
         },
         {
-            image: "./project-images/placeholder.png",
-            name: "<MERN Stack Module Assignment>",
-            description: "An application that was created using the MERN Stack & GraphQL",
-            url: "https://github.com/cmuscari"
+            image: "./project-images/give-back.jpg",
+            name: "Give Back",
+            description: "An application that highlights user's favorite charitable organizations and allows donations - created using the MERN Stack, GraphQL + Stripe API",
+            url: "https://github.com/cmuscari/donate"
         },
         {
-            image: "./project-images/placeholder.png",
-            name: "<Group Project 3>",
-            description: "An application that was created using the MERN Stack, GraphQL & Redux",
-            url: "https://github.com/cmuscari"
+            image: "./project-images/fitness.jpg",
+            name: "The Daily Drill",
+            description: "A daily workout generator site that was created using the MERN Stack + GraphQL",
+            url: "https://github.com/cmuscari/daily-drill"
         }
     ]
 

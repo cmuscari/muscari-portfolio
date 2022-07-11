@@ -45,12 +45,12 @@ function Contact() {
         <div className="contact-container d-flex flex-column justify-content-center align-items-center">
             <div className="contact-container-inner d-flex flex-column justify-content-center align-items-center">
                 <h1 className="contact-title">Let's Connect</h1>
-                <h2 className="subtitle">call me:</h2>
+                {/* <h2 className="subtitle">call me:</h2>
                 <p className="call-text">
                     512.743.4434
                 </p>
                 <br></br>
-                <br></br>
+                <br></br> */}
                 <h2 className="subtitle">message me:</h2>
                 <input
                     value={name}
