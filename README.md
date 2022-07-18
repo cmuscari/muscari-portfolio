@@ -6,9 +6,9 @@ This is a professional portfolio web page that displays information about me, my
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/97492722/177009836-6c9da287-c80f-4801-8554-3d91684e0884.png)
 ![image](https://user-images.githubusercontent.com/97492722/177009858-3697d525-5ea8-4a41-afa0-d6c1e67f8bce.png)
-![image](https://user-images.githubusercontent.com/97492722/177009876-bda9b9b8-fa53-4c2d-94e4-d1bf94f18068.png)
-![image](https://user-images.githubusercontent.com/97492722/177009891-adc87109-cff9-4b66-971f-cdbf3031c5d5.png)
-![image](https://user-images.githubusercontent.com/97492722/177009940-9e53abc3-7661-4e14-8cb8-ec0684c24c3a.png)
+![image](https://user-images.githubusercontent.com/97492722/179615671-4ab2058a-5a39-45f1-b8f3-fe77306be162.png)
+![image](https://user-images.githubusercontent.com/97492722/179615875-f42d9d29-dadf-4c6d-90a5-546de561486e.png)
+![image](https://user-images.githubusercontent.com/97492722/179615932-bfb4a38c-8765-4f07-8703-3c1a8a2583c0.png)
 
 ## Link to Depoloyed Application
 www.cortnie-muscari.com
