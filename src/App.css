@@ -369,6 +369,9 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%
 }
 
 .skills-container {
@@ -488,7 +491,14 @@ main {
 .input {
   width: 90%;
   margin-top: 15px;
-  color: var(--secondary-color);
+  color: black;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
 }
 
 .textarea {
@@ -835,11 +845,11 @@ main {
 
 
 @media screen and (min-width: 1100px) {
-  
+
   .nav-list-item {
     margin: 35px;
   }
-  
+
   .nav-list-item a {
     font-size: 18px;
   }
@@ -847,13 +857,13 @@ main {
   .header-title {
     font-size: 70px;
   }
-  
+
   .header-subtitle {
     font-size: 30px;
   }
-  
+
   .icon {
-   margin: 20px;
+    margin: 20px;
   }
 
   .section-3 {
@@ -861,13 +871,13 @@ main {
   }
 
   .hobby-group {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .section-4 {
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 12.5%;
+    padding-left: 12.5%;
   }
 
   .section-4-text {
@@ -886,7 +896,7 @@ main {
     height: 100px;
     width: auto;
   }
-  
+
   .project-cell-container:nth-child(n + 5) {
     position: relative;
     top: -70px;
@@ -902,5 +912,38 @@ main {
 
   .resume-container {
     height: 525px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1600px) {
+
+  .section-1 {
+    padding-left: 20%;
+  }
+  
+  .section-2 {
+    padding-left: 20%;
+  }
+
+  .hobby-group {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .section-4 {
+    padding-right: 25%;
+    padding-left: 25%;
+  }
+
+  .section-4-text-content {
+    font-size: 60px;
+  }
+
+  .resume-page-container {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }

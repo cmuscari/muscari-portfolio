@@ -51,7 +51,7 @@ function Contact() {
                 </p>
                 <br></br>
                 <br></br> */}
-                <h2 className="subtitle">message me:</h2>
+                {/* <h2 className="subtitle">message me:</h2> */}
                 <input
                     value={name}
                     name="name"
